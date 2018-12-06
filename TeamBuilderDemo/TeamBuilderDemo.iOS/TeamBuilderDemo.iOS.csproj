@@ -9,9 +9,9 @@
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DotNetConfDemo.iOS</RootNamespace>
+    <RootNamespace>TeamBuilderDemo.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>DotNetConfDemo.iOS</AssemblyName>
+    <AssemblyName>TeamBuilderDemo.iOS</AssemblyName>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
@@ -157,7 +157,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\DotNetConfDemo\TeamBuilderDemo.csproj">
+    <ProjectReference Include="..\TeamBuilderDemo\TeamBuilderDemo.csproj">
       <Project>{C34A5A02-314E-4427-BEDC-CC08F51FE3DD}</Project>
       <Name>TeamBuilderDemo</Name>
     </ProjectReference>
