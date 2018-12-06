@@ -7,8 +7,8 @@
     <ProjectGuid>{71E84C53-0C24-4358-8115-E3C67728F318}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DotNetConfDemo.UWP</RootNamespace>
-    <AssemblyName>DotNetConfDemo.UWP</AssemblyName>
+    <RootNamespace>TeamBuilderDemo.UWP</RootNamespace>
+    <AssemblyName>TeamBuilderDemo.UWP</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
@@ -17,7 +17,7 @@
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
-    <PackageCertificateKeyFile>DotNetConfDemo.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>TeamBuilderDemo.UWP_TemporaryKey.pfx</PackageCertificateKeyFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
     <DebugSymbols>true</DebugSymbols>
@@ -152,7 +152,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DotNetConfDemo\TeamBuilderDemo.csproj">
+    <ProjectReference Include="..\TeamBuilderDemo\TeamBuilderDemo.csproj">
       <Project>{C34A5A02-314E-4427-BEDC-CC08F51FE3DD}</Project>
       <Name>TeamBuilderDemo</Name>
     </ProjectReference>
